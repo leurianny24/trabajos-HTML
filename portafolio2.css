@@ -1,0 +1,73 @@
+/* Paleta de colores */
+:root {
+    --lila-claro: #E6CCFF;
+    --lila-medio: #B388EB;
+    --lila-oscuro: #7A4EB0;
+    --blanco: #ffffff;
+    --gris-claro: #F5F5F5;
+    --gris-oscuro: #333;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#fbcbff;
+    color: var(--gris-oscuro);
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: var(--lila-medio);
+    color: var(--blanco);
+    padding: 20px;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: var(--lila-oscuro);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: var(--lila-medio);
+}
+
+/* Secciones */
+section {
+    padding: 40px;
+}
+
+#projects .project {
+    background-color: var(--blanco);
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: var(--lila-oscuro);
+    color: var(--blanco);
+    padding: 15px;
+    margin-top: 20px;
+}
